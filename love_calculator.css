@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding:0;
+    background: url(bg.jpg);
+    background-size: 100%;
+    background-repeat : no-repeat;
+
+
+}
+.mcontainer{
+    background-color: rgba(255,221,238,0.6);
+    width:500px;
+    height: 400px;
+    transform: translate(270px,35px);
+    position: absolute;
+}
+.img1{
+    transform: translate(20px,20px);
+    width:70px;
+    height: 60px;
+
+}
+.t1{
+    font-size: 30px;
+    font-family:"NuptialScript" ;  
+    transform: translate(100px,-25px);  
+ 
+}
+.img2{
+    transform: translate(420px,-70px);
+    width:70px;
+    height: 60px;
+
+}
+#inputv1{
+    width: 400px;
+    height: 40px;
+    padding-left:20px ;
+    transform: translate(-25px,0px);
+    border-radius: 30px;
+    font-size:15px ;
+}
+#inputv2{
+    width: 400px;
+    height: 40px;
+    padding-left:20px ;
+    transform: translate(50px,30px);
+    border-radius: 30px;
+    font-size:15px ;
+}
+::placeholder{
+    font-size: 15px;
+    font-family: Helvetica;
+    ;
+}
+#b1{
+    width: 200px;
+    height:35px;
+    border-radius: 30px;
+    font-size: 16px;
+    transform: translate(143px,80px);
+    font-weight: bold ;
+    
+}
+#p1{
+    transform: translate(150px,-110px);
+    font-weight: bold;
+    color:blue;
+}
+#p3{
+    transform: translate(270px,-130px);
+    font-weight: bold;
+    color:blue;
+}
+#p4{
+    transform: translate(170px,-100px);
+}
+#p5{
+    transform: translate(220px,-90px);
+    font-size: 24px;
+    font-weight: bold;
+}
+#p6{
+    transform: translate(55px,-70px);
+    font-weight: bold;
+    color:red ;
+}
